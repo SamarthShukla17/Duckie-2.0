@@ -1,0 +1,18 @@
+{
+  "name": "duckie-2.0",
+  "version": "2.0.0",
+  "description": "🦆 GitHub Storytelling MCP Server with AI-powered issue suggestions",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20250722.0",
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "drizzle-orm": "^0.44.3",
+    "hono": "^4.8.5",
+    "octokit": "^5.0.3",
+    "zod": "^3.25.76"
+  }
+}
